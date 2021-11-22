@@ -22,8 +22,7 @@ title: 💻 Shinn R. H. Krammer
 email: shinnja2@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Please contact me if you have available work!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://shinnitme.me" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: shinn-krammerIT
 linkedin_username: shinn-krammer-628b34137
 # Build settings
