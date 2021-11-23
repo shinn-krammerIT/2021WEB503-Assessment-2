@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
+<container style="display: flex; flex-wrap: wrap; gap: 25px;">
 {% for post in site.categories.projects %}
- <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    <div style="padding: 5%; border-style: solid; border-radius: 25px;"><a href="{{ post.url }}">{{ post.title }}</a><br>{{ post.description }}</div>
 {% endfor %}
-
+</container>
